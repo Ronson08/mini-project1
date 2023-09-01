@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top{
+    background-color: rgb(114, 173, 255);
+    width: 100vw;
+    height: 100px;
+}
+body{
+    background-color: aqua;
+
+}
+.middle{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.middle h1{
+    margin: 5px;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+.middle h2{
+    margin: px;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+.intro1{
+    background-image: url("../Images/cloud\ 3.png");
+    background-size: 220px;
+    background-position: center;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position:80px;
+}
+
+h1:hover{
+    color: darkblue;
+    font-size: 50px;
+    text-decoration: underline;
+}
+h2:hover{
+    color: darkblue;
+    font-size: 50px;
+    text-decoration: underline;
+
+}
+.mount{
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    background: var(h2);
+    bottom: 30px;    
+}
+.c1{
+    position: absolute;
+    height: 60px;
+    width: 150px;
+    top: 80px;
+    left: 10vw;
+}
+.c2{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    top: 120px;
+    left: 70vw;
+}
+.c3{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 100px;
+    left: 55vw;
+}
+.c4{
+    position: absolute;
+        height: 100px;
+        width: 250px;
+        top: 100px;
+        left: 22vw;
+}
+img:hover{
+    box-sizing: border-box;
+}
+.hrcon{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+hr{
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    width: 70%;
+    border-color: black;
+    margin: 10px;
+    padding: 10px;
+}
+.about{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50%;
+}
+.contain{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contain h2:hover{
+    color: darkblue;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.about h2{
+    margin: 5px;
+    padding: 5px;
+}
+.about p{
+    margin: 5px;
+    padding: 5px;
+    font-family:    monospace;
+}
+.about img{
+    height: 10vw;
+    width: 10vw;
+    margin: 20px;
+    transition: all .4s ease-in ;
+    float: right;
+}
+
+.about img:hover{
+    width: 12vw;
+    height: 12vw;
+}
+
+p:hover{
+    text-decoration: underline;
+}
+.about .aimg2{
+    padding: 0px;
+    height: 12vw;
+    width: 20vw;
+}
+.about .aimg2:hover{
+    height: 14vw;
+    width: 25vw;
+}
+.about .aimg5{
+    padding: 0px;
+    height: 8vw;
+    width: 10vw;
+}
+.about .aimg5:hover{
+    height: 10vw;
+    width: 12vw;
+}
+.skill{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+}
+.bottom{
+    background-color: rgb(114, 173, 255);
+    width: 100vw;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.linkimg{
+    width: 2vw;
+    padding: 10px;
+}
+.linkimg:hover{
+    width: 4vw;
+}
+.bottom a{
+    color: #000;
+}
